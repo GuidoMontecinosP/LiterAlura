@@ -22,3 +22,50 @@ Este es un proyecto de catálogo de libros desarrollado como parte del desafío 
 1. Clona el repositorio:
    ```bash
    git clone https://github.com/GuidoMontecinosP/LiterAlura.git
+
+
+
+Ve al directorio del proyecto:
+
+```
+cd LiterAlura
+```
+Configura las credenciales de tu base de datos en el archivo .env:
+
+```
+
+DB_HOST=localhost
+DB_NAME=nombre_de_tu_base_de_datos
+DB_USER=tu_usuario
+DB_PASSWORD=tu_contraseña
+```
+Instala las dependencias con Maven:
+
+```
+mvn clean install
+```
+Ejecuta la aplicación:
+
+```
+mvn spring-boot:run
+```
+Estructura del Proyecto
+
+```
+LiterAlura/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com.challengeliteratura/
+│   │   │       ├── client/
+│   │   │       ├── entity/
+│   │   │       ├── model/
+│   │   │       ├── repository/
+│   │   │       ├── service/
+│   │   │       └── util/
+│   │   └── resources/
+│   └── test/
+├── pom.xml
+├── README.md
+└── .env
+```
