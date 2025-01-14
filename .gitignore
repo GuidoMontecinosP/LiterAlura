@@ -1,0 +1,17 @@
+# Directorios y archivos generados
+/target/
+/.vscode/
+/.idea/
+*.class
+*.jar
+*.log
+*.war
+*.iml
+*.env
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos relacionados con Git
+.git
